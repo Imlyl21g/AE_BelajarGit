@@ -1,17 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    float a, t, l;
+    float alas, tinggi, luas;
 
     printf("Masukkan alas segitiga: ");
-    scanf("%f", &a);
+    scanf("%f", &alas);
 
     printf("Masukkan tinggi segitiga: ");
-    scanf("%f", &t);
+    scanf("%f", &tinggi);
 
-    l = 0.5 * a * t;
+    luas = 0.5 * alas * tinggi;
 
-    printf("Luas segitiga adalah: %.2f\n", l);
+    printf("Luas segitiga adalah: %.2f\n", luas);
 
     return 0;
 }
